@@ -3,7 +3,7 @@ export const encodeForShare = (text) => encodeURIComponent(text);
 
 // generate link undangan
 export const generateInvitationLink = (name) =>
-  name ? `https://wedding-b1.vercel.app/${name.toLowerCase()}` : "";
+  name ? `https://wedding-tp1.vercel.app/${name.toLowerCase()}` : "";
 
 // generate teks undangan lengkap
 export const generateShareText = (name, invitationLink) =>
@@ -18,5 +18,5 @@ export const generateShareText = (name, invitationLink) =>
       `⏰ Waktu        : 08.00 WIB – selesai\n` +
       `📍 Tempat       : Kp. LosAnggeles RT 003 RW 004, Desa Miami, Kecamatan KrajanBarat\n\n` +
       `Wassalamualaikum Warahmatullahi Wabarakatuh\n\n` +
-      `Terima Kasih\nHormat kami,\nROMEO & JULIET `
+      `Terima Kasih\nHormat kami,\nADIT & DINDA `
     : "";

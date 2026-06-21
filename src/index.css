@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  overflow-x: hidden;
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #070707;
+}
+
+/* @keyframes rotateSlow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotateSlow {
+  animation: rotateSlow 30s linear infinite;
+} */
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-floating {
+  animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes mandalaRotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-mandala {
+  animation: mandalaRotate 40s linear infinite;
+  transform-origin: center;
+  will-change: transform;
+}
+
+.animate-mandala-reverse {
+  animation: mandalaRotate 40s linear infinite reverse;
+  transform-origin: center;
+  will-change: transform;
+}

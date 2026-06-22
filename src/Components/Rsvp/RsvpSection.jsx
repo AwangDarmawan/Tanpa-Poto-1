@@ -37,7 +37,7 @@ export default function RsvpSection() {
               RSVP
             </p>
 
-            <h2 className=" mt-4
+            <h2  data-aos="fade-up" className=" mt-4
         font-allura
         text-[clamp(3rem,8vw,5rem)]
         bg-gradient-to-b

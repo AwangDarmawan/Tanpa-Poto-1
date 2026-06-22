@@ -73,14 +73,14 @@ function PesanAdmin() {
      
       px-4
       sm:px-6
-      py-12
+      py-6
     "
   >
       <MandalaSection />
     <div className="max-w-5xl mx-auto lg:px-[330px]">
 
       {/* Heading */}
-      <div className="text-center mb-10">
+      <div className="text-center mb-8">
         <p
           data-aos="fade-up"
           className="

@@ -6,7 +6,7 @@ export default function GiftAddres() {
 
       <FaGift className="mx-auto text-4xl text-[#D9B16A]" />
 
-      <h3 className="mt-4 text-2xl font-semibold font-serif italic text-[#D9B16A]">
+      <h3  data-aos="fade-down-right" className="mt-4 text-2xl font-semibold font-serif italic text-[#D9B16A]">
         Kirim Hadiah
       </h3>
 

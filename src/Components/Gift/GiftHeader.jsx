@@ -5,7 +5,7 @@ export default function GiftHeader() {
     <>
       <FaGift className="text-5xl text-[#D9B16A]" />
 
-      <h2
+      <h2 data-aos="fade-down-right"
         className="
         mt-4
         font-allura

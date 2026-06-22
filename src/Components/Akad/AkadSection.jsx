@@ -111,7 +111,7 @@ italic
           Kp.Babakan Desa Tanjungsari Kec.Tanjungsari Kab.Bogor
         </p>
 
-         <button
+         <button data-aos="fade-up"
       className="
      mt-10
 inline-flex

@@ -16,7 +16,7 @@ const Form = ({ name, setName, handleSubmit }) => (
      <MandalaSection />
     <div className="max-w-6xl mx-auto lg:px-[330px]">
       {/* Heading */}
-      <div className="text-center mb-10">
+      <div className="text-center mb-6">
         <p
          data-aos="fade-up"
           className="

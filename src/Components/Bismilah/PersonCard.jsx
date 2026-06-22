@@ -6,7 +6,7 @@ export default function PersonCard({
   return (
     <div>
 
-      <h2
+      <h2 data-aos="fade-down-right"
         className="
         font-allura
         

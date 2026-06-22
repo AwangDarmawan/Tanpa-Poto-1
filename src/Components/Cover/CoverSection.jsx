@@ -22,11 +22,11 @@ export default function CoverSection() {
         localStorage.setItem("playMusic", "true");
     navigate("/home");
     
-  }, 1000); // sama dengan durasi animasi
+  }, 90); // sama dengan durasi animasi
 };
   return (
 
-    <motion.div
+<motion.div
   initial={{
     y: 0,
     opacity: 1,
@@ -36,10 +36,10 @@ export default function CoverSection() {
   animate={
     isExit
       ? {
-          y: "-120vh",
+          y: "-105%",
           opacity: 0,
-          scale: 0.92,
-          filter: "blur(12px)",
+          scale: 0.97,
+          filter: "blur(6px)",
         }
       : {
           y: 0,
@@ -49,8 +49,8 @@ export default function CoverSection() {
         }
   }
   transition={{
-    duration: 2,
-    ease: [0.16, 1, 0.3, 1],
+    duration: 1.7,
+     ease: "easeInOut", // smooth easeOut
   }}
 
 >
@@ -68,7 +68,12 @@ export default function CoverSection() {
           The Wedding Of
         </p>
 
-        <h1 className=" text-[#D9B16A]
+        <h1 data-aos="fade-down-right" className="  bg-gradient-to-t
+        from-[#FFF5D6]
+        via-[#D9B16A]
+        to-[#8A6438]
+        bg-clip-text
+        text-transparent
         text-5xl
         sm:text-6xl
         md:text-7xl
@@ -86,7 +91,12 @@ export default function CoverSection() {
           &
         </p>
 
-        <h1 className=" text-[#D9B16A]
+        <h1 data-aos="fade-up-left" className="  bg-gradient-to-b
+        from-[#FFF5D6]
+        via-[#D9B16A]
+        to-[#8A6438]
+        bg-clip-text
+        text-transparent
         text-5xl
         sm:text-6xl
         md:text-7xl
@@ -105,7 +115,12 @@ export default function CoverSection() {
             Bapak/Ibu/Saudara/i
           </p>
 
-          <h2 className="font-serif italic text-2xl font-semibold mt-4 text-white">
+          <h2 className="font-space italic text-2xl font-semibold mt-4  bg-gradient-to-t
+        from-[#FFF5D6]
+        via-[#D9B16A]
+        to-[#8A6438]
+        bg-clip-text
+        text-transparent" data-aos="fade-up">
            {nama}
           </h2>
 

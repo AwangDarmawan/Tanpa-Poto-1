@@ -2,11 +2,11 @@ import {  FaLink } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="mt-10 border-t border-white/10 bg-white/10 text-white lg:mx-[490px] font-space">
+    <footer  className="mt-10 border-t border-white/10 bg-white/10 text-white lg:mx-[490px] font-space">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 py-6  ">
 
         {/* Copyright */}
-        <p className="text-center text-xs text-white/70 sm:text-left">
+        <p  className="text-center text-xs text-white/70 sm:text-left">
           © {new Date().getFullYear()} 4darDigital Hub. All Rights Reserved.
         </p>
 

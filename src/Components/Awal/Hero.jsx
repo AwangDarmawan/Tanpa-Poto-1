@@ -6,7 +6,7 @@ import Timer from "./Timer";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden min-h-screen flex justify-center items-center">
+    <section  data-aos= "fade-up"className="relative overflow-hidden min-h-screen flex justify-center items-center">
       {/* Mandala */}
        <MandalaSection/>
 

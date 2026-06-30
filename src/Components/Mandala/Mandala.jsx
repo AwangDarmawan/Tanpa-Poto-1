@@ -21,6 +21,8 @@ export default function Mandala({
         absolute
         pointer-events-none
         select-none
+        z-0
+        
         ${position}
         ${size}
         ${opacity}

@@ -14,7 +14,7 @@ const Form = ({ name, setName, handleSubmit }) => (
     "
   >
      <MandalaSection />
-    <div className="max-w-6xl mx-auto lg:px-[330px]">
+    <div className="  max-w-6xl mx-auto lg:px-[330px] relative z-10">
       {/* Heading */}
       <div className="text-center mb-6">
         <p

@@ -74,10 +74,11 @@ function PesanAdmin() {
       px-4
       sm:px-6
       py-6
+      
     "
   >
       <MandalaSection />
-    <div className="max-w-5xl mx-auto lg:px-[330px]">
+    <div className="  max-w-5xl mx-auto lg:px-[330px] ">
 
       {/* Heading */}
       <div className="text-center mb-8">
@@ -178,6 +179,7 @@ function PesanAdmin() {
                   rounded-xl
                   p-4
                   shadow-sm
+                   relative z-10 
                 "
               >
                 <div
@@ -187,10 +189,11 @@ function PesanAdmin() {
                     md:flex-row
                     md:justify-between
                     gap-4
+                   
                   "
                 >
                   {/* Isi Pesan */}
-                  <div className="flex-1 break-words bg">
+                  <div className="flex-1 break-words ">
                     <h4
                       className="
                         font-bold

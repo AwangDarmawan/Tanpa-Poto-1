@@ -6,9 +6,11 @@ import Footer from "../Components/Footer"
 import GiftSection from "../Components/Gift/GiftSection"
 import ResepsiSection from "../Components/Resepsi/ResepsiSection"
 import RsvpSection from "../Components/Rsvp/RsvpSection"
+import Mengundang from "../Components/Mengundang/Mengundang"
 import { useEffect, useRef, useState } from "react"
 import { Volume2, VolumeX } from "lucide-react"
 import Lagu from "../assets/Vd/Bergema.mp3"
+
 function HomePage() {
      const audioRef = useRef(null);
 const [isPlaying, setIsPlaying] = useState(false);
@@ -31,6 +33,7 @@ const [isPlaying, setIsPlaying] = useState(false);
       <GiftSection/>
       <RumSection/>
       <RsvpSection/>
+      <Mengundang/>
       <Footer/>
          <button
   onClick={() => {

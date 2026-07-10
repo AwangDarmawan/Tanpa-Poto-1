@@ -3,12 +3,16 @@ export const encodeForShare = (text) => encodeURIComponent(text);
 
 // generate link undangan
 export const generateInvitationLink = (name) =>
-  // name ? `https://wedding-tp1.vercel.app/${name.toLowerCase()}` : "";
+  
+// name
+//     ? `https://wedding-tp1.vercel.app/${encodeURIComponent(
+//         name.toLowerCase()
+//       )}`
+//     : "";
+
 name
-    ? `https://wedding-tp1.vercel.app/${encodeURIComponent(
-        name.toLowerCase()
-      )}`
-    : "";
+  ? `https://wedding-tp1.vercel.app/${encodeURIComponent(name)}`
+  : "";
 
 // generate teks undangan lengkap
 export const generateShareText = (name, invitationLink) =>

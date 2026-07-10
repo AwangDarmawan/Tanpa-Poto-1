@@ -2,7 +2,7 @@
 
 export default function Footer() {
   return (
-    <footer  className="rounded-2xl relative z-10 mt-10 border  border-[#D9B16A]/30 bg-black/50 text-white
+    <footer  className="rounded-2xl relative z-10 mt-10  shadow-2xl border  border-[#D9B16A]/30  bg-white/5 text-white
      lg:mx-[300px] font-space">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-4 py-6  ">
 

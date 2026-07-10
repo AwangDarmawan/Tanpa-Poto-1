@@ -23,10 +23,10 @@ export default function RsvpSection() {
     fetchData();
   }, []);
   return (
-    <section id="rsvp" className="relative z-10 px-5 py-24">
+    <section id="rsvp" className="relative z-20 px-5 py-24">
         <MandalaSection />
         
-      <div className="mx-auto w-full max-w-5xl text-center  lg:px-[330px]">
+      <div className=" mx-auto w-full max-w-5xl text-center  lg:px-[330px]">
         
             <FaEnvelopeOpenText className="mx-auto text-4xl  
     text-[clamp(3rem,8vw,5rem)]
@@ -145,7 +145,7 @@ export default function RsvpSection() {
                     
                   "
                 >
-                  <div className="flex justify-between items-start gap-3 ">
+                  <div className="flex justify-between items-start gap-3 z-10 ">
                     <div className="flex-1">
                       <p className="font-bold text-white break-words font-space">
                         {item.nama}

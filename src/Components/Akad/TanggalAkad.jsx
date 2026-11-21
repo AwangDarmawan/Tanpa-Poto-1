@@ -69,7 +69,7 @@ sm:text-5xl
 md:text-6xl
         "
         >
-          07
+          29
         </h2>
 
         <p className="text-black font-medium font-poppins">
@@ -103,7 +103,7 @@ tracking-[3px]
 font-space
         "
         >
-          Agustus
+          November
         </p>
 
       </div>

@@ -82,7 +82,7 @@ export default function CoverSection() {
         font-allura
         mr-20">
 
-          Aditya
+          Agung
         </h1>
 
         <p className="text-[#D9B16A] xs:text-3xl text-5xl
@@ -102,7 +102,7 @@ export default function CoverSection() {
         md:text-7xl
         font-allura ml-20">
 
-          Dinda
+          Elva
         </h1>
 
         <div className="mt-10 xs:mt-1">

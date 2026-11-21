@@ -27,7 +27,7 @@ export default function Hero() {
         font-allura
         mr-20">
 
-          Aditya
+          Agung
         </h1>
 
         <p className="text-[#D9B16A] xs:text-3xl text-5xl
@@ -42,14 +42,14 @@ export default function Hero() {
         md:text-7xl
         font-allura ml-20">
 
-          Dinda
+          Elva
         </h1>
         <p className="mt-8 uppercase tracking-[0.4em] text-xs sm:text-sm text-[#D9B16A] font-allura font-black">
   Save The Date
 </p>
 
 <h3 className="mt-3 italic text-white text-lg sm:text-xl md:text-2xl font-serif">
-  17 Agustus 2025
+  29 November 2026
 </h3>
 
 <Timer />

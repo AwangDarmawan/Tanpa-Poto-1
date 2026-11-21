@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const weddingDate = new Date("2026-08-17T08:00:00").getTime();
+const weddingDate = new Date("2026-11-29T08:00:00").getTime();
 
 export default function Timer() {
   const [timeLeft, setTimeLeft] = useState(getTime());

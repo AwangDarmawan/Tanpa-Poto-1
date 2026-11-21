@@ -3,8 +3,8 @@ import RumSection from "../Components/Ar-Rum/RumSection"
 import Hero from "../Components/Awal/Hero"
 import PersonSection from "../Components/Bismilah/PersonSection"
 import Footer from "../Components/Footer"
-import GiftSection from "../Components/Gift/GiftSection"
-import ResepsiSection from "../Components/Resepsi/ResepsiSection"
+// import GiftSection from "../Components/Gift/GiftSection"
+// import ResepsiSection from "../Components/Resepsi/ResepsiSection"
 import RsvpSection from "../Components/Rsvp/RsvpSection"
 import Mengundang from "../Components/Mengundang/Mengundang"
 import { useEffect, useRef, useState } from "react"
@@ -29,8 +29,8 @@ const [isPlaying, setIsPlaying] = useState(false);
       <Hero/>
       <PersonSection/>
       <AkadSection/>
-      <ResepsiSection/>
-      <GiftSection/>
+      {/* <ResepsiSection/>
+      <GiftSection/> */}
       <RumSection/>
       <RsvpSection/>
       <Mengundang/>

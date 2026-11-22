@@ -24,9 +24,9 @@ export const generateShareText = (name, invitationLink) =>
       ${invitationLink}\n\n` +
       `Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa restu.\n\n` +
       `Acara akan diselenggarakan pada:\n` +
-      `🗓️ Hari/Tanggal : Minggu, 29 November 2026\n` +
-      `⏰ Waktu        : 08.00 WIB – selesai\n` +
-      `📍 Tempat       : Kp. Cinangsi RT 04 RW 01, Ds Mentengsari, KEC.Cikalongkulon Kab.Cianjur\n\n` +
+      `🗓️ *Hari/Tanggal: Minggu, 29 November 2026*\n` +
+      `⏰ *Waktu       : 08.00 WIB – selesai*\n` +
+      `📍 *Tempat       : Kp. Cinangsi RT 04 RW 01, Ds Mentengsari, KEC.Cikalongkulon KAB.Cianjur*\n\n` +
       `Wassalamualaikum Warahmatullahi Wabarakatuh\n\n` +
       `Terima Kasih\nHormat kami,\nAGUNG & ELVA `
     : "";

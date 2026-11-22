@@ -11,7 +11,7 @@ export const generateInvitationLink = (name) =>
 //     : "";
 
 name
-  ? `https://wedding-tp1.vercel.app/${encodeURIComponent(name)}`
+  ? `https://pernikahan-khitanan.vercel.app/${encodeURIComponent(name)}`
   : "";
 
 // generate teks undangan lengkap

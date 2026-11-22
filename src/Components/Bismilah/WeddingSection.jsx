@@ -24,7 +24,7 @@ export default function WeddingSection() {
       {/* MEMPELAI WANITA */}
       <PersonCard
         name="Elva Sofiah"
-        parent="Putri dari Bapak H. Mumuh Muhammad & Ibu Dedeh Aliyah"
+        parent="Putri dari Bapak H. Mumu Muhammad & Ibu Dedeh Aliyah"
       />
 
      

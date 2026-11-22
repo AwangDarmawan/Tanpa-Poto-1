@@ -209,7 +209,7 @@ export default function PersonSection() {
           "
         >
           Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala,
-          insyaAllah kami akan menyelenggarakan acara pernikahan
+          insyaAllah kami akan menyelenggarakan Syukuran Pernikahan
           & Syukuran Khitanan:
         </p>
 

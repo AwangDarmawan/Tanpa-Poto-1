@@ -19,12 +19,13 @@ export const generateShareText = (name, invitationLink) =>
   name
     ? `Kepada Yth. Bapak/Ibu/Saudara/i *${name}*\n\n` +
       `Assalamualaikum Warahmatullahi Wabarakatuh\n\n` +
-      `Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i, teman sekaligus sahabat, untuk menghadiri *syukuran pernikahan & syukuran khitanan Muhammad Hairaz Arsyakhi*.\n\n` +
+      `Tanpa mengurangi rasa hormat, perkenankan kami mengundang Bapak/Ibu/Saudara/i, teman sekaligus sahabat, untuk menghadiri *Syukuran Pernikahan Agung&Elva Sekaligus syukuran khitanan 
+      Muhammad Hairaz Arsyakhi*.\n\n` +
       `Berikut link undangan kami, untuk info lengkap dari acara, bisa kunjungi: 
       ${invitationLink}\n\n` +
       `Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan untuk hadir dan memberikan doa restu.\n\n` +
       `Acara akan diselenggarakan pada:\n` +
-      `🗓️ Hari/Tanggal : Minggu, 20 Agustus 2026\n` +
+      `🗓️ Hari/Tanggal : Minggu, 29 November 2026\n` +
       `⏰ Waktu        : 08.00 WIB – selesai\n` +
       `📍 Tempat       : Kp. Cinangsi RT 04 RW 01, Ds Mentengsari, KEC.Cikalongkulon Kab.Cianjur\n\n` +
       `Wassalamualaikum Warahmatullahi Wabarakatuh\n\n` +
